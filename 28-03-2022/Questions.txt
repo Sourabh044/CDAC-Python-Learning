@@ -1,0 +1,10 @@
+Q1. Check the version installed of the python
+Q2. Initialize different types of variables- in, float, str, complex
+Q3. different Numerical Litterals.
+Q4. Print: 
+        How's Everyone!.
+        "It's to Cold today.
+Q5. demonstrate follwing:
+        - isinstance
+        - chr
+        - ord
