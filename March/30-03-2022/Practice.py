@@ -18,12 +18,12 @@ for i in range(totalStudents):
     studentDetails.append(singleStudent)
     studentDetails.sort()
 
-# print(studentDetails)
+print('--------------------------------------------------------------------------------\n')
 for student in studentDetails:
     y = 0
+    print('--------------------------------------------------------------------------------\n')
     for details in student:
-        d = ['Name:','Roll No:','Phone Number:']
-        # for i in d:
+        d = ('Name:','Roll No:','Phone Number:')
         print(d[y],details, end=" ")
         y += 1
-    print('--------------------------------------------------------------------------------\n')
+    print()

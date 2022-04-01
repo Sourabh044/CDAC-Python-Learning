@@ -1,0 +1,15 @@
+t1_set = set()
+for i in range(5):
+    T = int(input("Enter number {} :".format(i+1)))
+    t1_set.add(T)
+
+minimum_t1 = min(t1_set)
+maximum_t1 = max(t1_set)
+sum_t1 = sum(t1_set)
+t1_list = list(t1_set)
+t1_list.sort()
+t1_set = tuple(t1_list)
+print('The Minimum element is:',minimum_t1)
+print('The Maximum element is:',maximum_t1)
+print('The Sum of all the elements is:',sum_t1)
+print('Printing Tuple:',t1_set)

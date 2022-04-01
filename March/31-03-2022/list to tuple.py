@@ -1,0 +1,5 @@
+X = (1,2,3,3,4)
+print(type(X))
+list_tup = list(X)
+print(list_tup)
+print(type(list_tup))
