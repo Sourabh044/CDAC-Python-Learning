@@ -1,4 +1,4 @@
-name = 'Sourabh Kumar'
+name = input('Enter Your Full Name: ') #'Sourabh Kumar'
 name_split = name.split()
 age = 21
 nameFirstChar = [name_split[0][0].lower(),name_split[1][0].lower()]
