@@ -16,18 +16,3 @@ def proDuct(num1,num2):
 def power(num1,num2):
     result = 'Raising power of '+ str(num1) + ' by ' + str(num2) + ' we get ' + str(num1**num2) 
     return result
-print('-----------------------------------------------'.center(50))
-a = int(input('Enter number one: '))
-b = int(input('Enter number two: '))
-print('-----------------------------------------------'.center(50))
-print(add(a,b))
-print('-----------------------------------------------'.center(50))
-print(sub(a,b))
-print('-----------------------------------------------'.center(50))
-print(div(a,b))
-print('-----------------------------------------------'.center(50))        
-print(mod(a,b))
-print('-----------------------------------------------'.center(50))        
-print(proDuct(a,b))
-print('-----------------------------------------------'.center(50))        
-print(power(a,b))
