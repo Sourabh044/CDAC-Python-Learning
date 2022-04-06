@@ -25,13 +25,13 @@ class student:
         print('Totals Marks of the student is:',sum(self.marks))
     def displayGrade(self):
         total = sum(self.marks)
-        if total<500 and total>450:
+        if total<=500 and total>=450:
             print('Grade A')
-        elif total<450 and total>350:
+        elif total<=450 and total>=350:
             print('Grade B')
-        elif total<350 and total>200:
+        elif total<=350 and total>=200:
             print('Grade C')
-        elif total<200:
+        elif total<=200:
             print('Grade D')
 
 # Creating Student object
